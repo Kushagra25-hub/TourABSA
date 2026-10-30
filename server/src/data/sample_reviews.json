@@ -1,0 +1,170 @@
+[
+  {
+    "review_id": "REV-0001",
+    "hotel_name": "The Grand Meridian Hotel",
+    "review_text": "The hotel rooms were very clean, the staff was friendly and the breakfast was excellent. However, the location was far from the city centre and the room service was very slow.",
+    "date": "2024-03-01",
+    "rating": 4
+  },
+  {
+    "review_id": "REV-0002",
+    "hotel_name": "The Grand Meridian Hotel",
+    "review_text": "Exceptional cleanliness and spotless bathrooms. The receptionist went out of her way to assist us. However, the pricing was quite steep for the amenities provided.",
+    "date": "2024-03-03",
+    "rating": 4
+  },
+  {
+    "review_id": "REV-0003",
+    "hotel_name": "The Grand Meridian Hotel",
+    "review_text": "The breakfast buffet had great food variety and fresh fruit. On the other hand, the swimming pool was under maintenance and the Wi-Fi connection was unstable in our room.",
+    "date": "2024-03-05",
+    "rating": 3
+  },
+  {
+    "review_id": "REV-0004",
+    "hotel_name": "The Grand Meridian Hotel",
+    "review_text": "Outstanding staff professionalism and very welcoming check-in. The room was spacious and tidy, giving excellent value for money during our anniversary stay.",
+    "date": "2024-03-08",
+    "rating": 5
+  },
+  {
+    "review_id": "REV-0005",
+    "hotel_name": "The Grand Meridian Hotel",
+    "review_text": "Convenient location near the main railway terminal, but the breakfast food was cold and the staff seemed completely overwhelmed during morning peak hours.",
+    "date": "2024-03-12",
+    "rating": 2
+  },
+  {
+    "review_id": "REV-0006",
+    "hotel_name": "The Grand Meridian Hotel",
+    "review_text": "The bathroom linen was fresh and hygiene standards were high. However, we were charged an unexpected resort fee that ruined the value perception.",
+    "date": "2024-03-15",
+    "rating": 3
+  },
+  {
+    "review_id": "REV-0007",
+    "hotel_name": "Azure Bay Resort & Spa",
+    "review_text": "Stunning beachfront location with breathtaking views! The infinity swimming pool and modern fitness gym facilities were first-class throughout our week.",
+    "date": "2024-03-02",
+    "rating": 5
+  },
+  {
+    "review_id": "REV-0008",
+    "hotel_name": "Azure Bay Resort & Spa",
+    "review_text": "The gourmet seafood at the resort restaurant was absolutely delicious. However, the concierge staff was dismissive and gave us wrong information regarding local boat tours.",
+    "date": "2024-03-04",
+    "rating": 3
+  },
+  {
+    "review_id": "REV-0009",
+    "hotel_name": "Azure Bay Resort & Spa",
+    "review_text": "Extremely overpriced cocktails and high room rates that do not match the value. The bedroom was clean, but we expected much more luxury for this budget.",
+    "date": "2024-03-07",
+    "rating": 2
+  },
+  {
+    "review_id": "REV-0010",
+    "hotel_name": "Azure Bay Resort & Spa",
+    "review_text": "Impeccable housekeeping with spotless sheets every day. The resort spa amenities were relaxing and the complimentary high-speed Wi-Fi worked seamlessly on the terrace.",
+    "date": "2024-03-10",
+    "rating": 5
+  },
+  {
+    "review_id": "REV-0011",
+    "hotel_name": "Azure Bay Resort & Spa",
+    "review_text": "The location is peaceful and right on the beach, although taxi accessibility to downtown shopping districts is quite difficult and expensive.",
+    "date": "2024-03-14",
+    "rating": 4
+  },
+  {
+    "review_id": "REV-0012",
+    "hotel_name": "Azure Bay Resort & Spa",
+    "review_text": "Staff treated our family with immense warmth and courtesy. Breakfast was tasty with abundant choices, and the room was sparkling clean.",
+    "date": "2024-03-18",
+    "rating": 5
+  },
+  {
+    "review_id": "REV-0013",
+    "hotel_name": "Urban Central Suites",
+    "review_text": "Unbeatable central downtown location within walking distance to museums and metro stations. The Wi-Fi was fast and the elevator was quick.",
+    "date": "2024-03-01",
+    "rating": 5
+  },
+  {
+    "review_id": "REV-0014",
+    "hotel_name": "Urban Central Suites",
+    "review_text": "The bedroom carpets were dusty and the bathroom shower drain had strange odors. Thankfully the front desk staff was very apologetic and relocated us immediately.",
+    "date": "2024-03-05",
+    "rating": 3
+  },
+  {
+    "review_id": "REV-0015",
+    "hotel_name": "Urban Central Suites",
+    "review_text": "Great value for money for business travelers. Affordable room rate, functional workspace, and reliable high-speed internet amenities.",
+    "date": "2024-03-09",
+    "rating": 4
+  },
+  {
+    "review_id": "REV-0016",
+    "hotel_name": "Urban Central Suites",
+    "review_text": "Breakfast was bland, coffee tasted stale, and there was no variety. The location is convenient, but do not eat here.",
+    "date": "2024-03-11",
+    "rating": 2
+  },
+  {
+    "review_id": "REV-0017",
+    "hotel_name": "Urban Central Suites",
+    "review_text": "Night receptionist was rude and refused to help with our late check-in. The room itself was tidy, but the terrible service ruined the night.",
+    "date": "2024-03-16",
+    "rating": 2
+  },
+  {
+    "review_id": "REV-0018",
+    "hotel_name": "Urban Central Suites",
+    "review_text": "Fair prices, clean sheets, and friendly morning staff. An economical and pleasant choice in the middle of the city.",
+    "date": "2024-03-20",
+    "rating": 4
+  },
+  {
+    "review_id": "REV-0019",
+    "hotel_name": "Starlight Budget Inn",
+    "review_text": "Unbeatable bargain pricing and very affordable for students on a budget. However, the bathroom cleanliness was poor and the towels were stained.",
+    "date": "2024-03-02",
+    "rating": 2
+  },
+  {
+    "review_id": "REV-0020",
+    "hotel_name": "Starlight Budget Inn",
+    "review_text": "The motel is located in an industrial zone far away from city attractions with very poor public transport links. The staff was friendly though.",
+    "date": "2024-03-06",
+    "rating": 2
+  },
+  {
+    "review_id": "REV-0021",
+    "hotel_name": "Starlight Budget Inn",
+    "review_text": "Free Wi-Fi was completely down for our entire two-night stay and there was no hot water in the shower. Very disappointed with the facilities.",
+    "date": "2024-03-10",
+    "rating": 1
+  },
+  {
+    "review_id": "REV-0022",
+    "hotel_name": "Starlight Budget Inn",
+    "review_text": "Friendly manager who gave us directions to nearby restaurants. The room was basic but reasonably clean given the low price.",
+    "date": "2024-03-13",
+    "rating": 3
+  },
+  {
+    "review_id": "REV-0023",
+    "hotel_name": "Starlight Budget Inn",
+    "review_text": "No breakfast provided, but lots of local diners nearby. Clean beds and great value if you only need a bed to sleep.",
+    "date": "2024-03-17",
+    "rating": 3
+  },
+  {
+    "review_id": "REV-0024",
+    "hotel_name": "Starlight Budget Inn",
+    "review_text": "The room had a strong cigarette smell and dirty windows. The staff was unhelpful when we asked for air freshener. Not worth even the low rate.",
+    "date": "2024-03-21",
+    "rating": 1
+  }
+]
