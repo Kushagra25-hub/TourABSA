@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Database, Download, Trash2, CheckCircle2, AlertCircle, RefreshCw, Menu } from 'lucide-react';
-import { api } from '../services/api';
+import { api, API_BASE } from '../services/api';
 import { NavPage } from './Sidebar';
 
 interface NavbarProps {
@@ -62,7 +62,7 @@ export const Navbar: React.FC<NavbarProps> = ({
   };
 
   const handleExportCSV = () => {
-    window.open('/api/analysis/bulk/export', '_blank');
+    window.open(`${API_BASE}/analysis/bulk/export`, '_blank');
   };
 
   return (

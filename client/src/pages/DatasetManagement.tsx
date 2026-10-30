@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { api } from '../services/api';
+import { api, API_BASE } from '../services/api';
 import { StoredReview } from '../types';
 import {
   FolderKanban,
@@ -220,7 +220,7 @@ export const DatasetManagement: React.FC = () => {
             </button>
 
             <button
-              onClick={() => window.open('/api/dataset/export/cleaned', '_blank')}
+              onClick={() => window.open(`${API_BASE}/dataset/export/cleaned`, '_blank')}
               className="btn-secondary text-xs h-8 px-3 flex items-center gap-1.5"
               title="Download clean, deduplicated reviews with metadata"
             >
@@ -229,7 +229,7 @@ export const DatasetManagement: React.FC = () => {
             </button>
 
             <button
-              onClick={() => window.open('/api/dataset/export/predictions', '_blank')}
+              onClick={() => window.open(`${API_BASE}/dataset/export/predictions`, '_blank')}
               className="btn-secondary text-xs h-8 px-3 flex items-center gap-1.5"
               title="Download reviews with multi-aspect DeBERTa predictions"
             >

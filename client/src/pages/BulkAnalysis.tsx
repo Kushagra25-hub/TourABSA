@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { api } from '../services/api';
+import { api, API_BASE } from '../services/api';
 import { StoredReview } from '../types';
 import { AspectBadge } from '../components/AspectBadge';
 import {
@@ -113,7 +113,7 @@ export const BulkAnalysis: React.FC = () => {
   };
 
   const handleDownloadSampleCSV = () => {
-    window.open('/api/analysis/bulk/export', '_blank');
+    window.open(`${API_BASE}/analysis/bulk/export`, '_blank');
   };
 
   return (
