@@ -15,10 +15,11 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     curl \
     && rm -rf /var/lib/apt/lists/*
 
-# Install Python requirements
+# Install Python requirements (CPU-only PyTorch saves ~2.5GB disk space)
 COPY requirements.txt .
-RUN pip install --upgrade pip && \
-    pip install -r requirements.txt && \
+RUN pip install --no-cache-dir --upgrade pip && \
+    pip install --no-cache-dir torch --index-url https://download.pytorch.org/whl/cpu && \
+    pip install --no-cache-dir -r requirements.txt && \
     python -m spacy download en_core_web_sm
 
 # Copy service code

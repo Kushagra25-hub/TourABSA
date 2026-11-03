@@ -29,3 +29,4 @@ done
 echo "[2/2] Starting Node.js Web Server on port ${PORT}..."
 cd /app/server
 exec node src/index.js
+

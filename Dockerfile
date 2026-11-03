@@ -43,10 +43,11 @@ ENV HOME=/home/user \
     PATH=/home/user/.local/bin:$PATH
 WORKDIR /app
 
-# 1. Install Python NLP service dependencies
+# 1. Install Python NLP service dependencies (CPU-only PyTorch saves ~2.5GB disk space)
 COPY nlp_service/requirements.txt ./nlp_service/
-RUN pip install --upgrade pip && \
-    pip install -r nlp_service/requirements.txt && \
+RUN pip install --no-cache-dir --upgrade pip && \
+    pip install --no-cache-dir torch --index-url https://download.pytorch.org/whl/cpu && \
+    pip install --no-cache-dir -r nlp_service/requirements.txt && \
     python -m spacy download en_core_web_sm
 
 # 2. Install Node.js backend server dependencies
@@ -76,3 +77,4 @@ HEALTHCHECK --interval=30s --timeout=10s --start-period=60s --retries=3 \
   CMD curl -f http://localhost:7860/api/health || exit 1
 
 CMD ["bash", "/app/start.sh"]
+
