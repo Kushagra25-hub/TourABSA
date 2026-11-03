@@ -1,3 +1,13 @@
+---
+title: TourABSA - Hospitality Aspect-Based Sentiment Analysis
+emoji: 🏨
+colorFrom: blue
+colorTo: indigo
+sdk: docker
+app_port: 7860
+pinned: false
+---
+
 # Unpacking Tourist Experiences: A Zero-Shot ABSA Framework for Hospitality
 
 **Final Year B.Tech Major Project in Computer Science and Engineering / AI & Data Science**
